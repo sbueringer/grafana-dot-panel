@@ -23,6 +23,7 @@ script:
 before_deploy:
 - cp -r . /tmp/grafana-dot-panel-${TRAVIS_TAG}
 - cd /tmp
+- rm -rf ./grafana-dot-panel-${TRAVIS_TAG}/node_modules
 - zip -r grafana-dot-panel-${TRAVIS_TAG}.zip grafana-dot-panel-${TRAVIS_TAG}
 
 
