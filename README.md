@@ -1,7 +1,7 @@
 
 # Grafana Dot Panel
 
-[![GitHub release](https://img.shields.io/github/release/sbueringer/grafana-consul-datasource.svg)](https://github.com/sbueringer/grafana-dot-panel/releases) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sbueringer/grafana-dot-panel/issues)
+[![Travis](https://img.shields.io/travis/sbueringer/grafana-dot-panel.svg)](https://travis-ci.org/sbueringer/grafana-dot-panel)[![GitHub release](https://img.shields.io/github/release/sbueringer/grafana-consul-datasource.svg)](https://github.com/sbueringer/grafana-dot-panel/releases) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sbueringer/grafana-dot-panel/issues)
 
 # Overview
 

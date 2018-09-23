@@ -1,0 +1,40 @@
+sudo: false
+dist: trusty
+
+language: go
+
+cache:
+  directories:
+  - node_modules
+
+env:
+  global:
+  - NODE_VERSION="8.11.3"
+
+before_install:
+- env
+- nvm install $NODE_VERSION
+
+#install:
+#- npm install -g codecov
+
+script:
+- grunt
+
+#after_success:
+#- codecov
+
+before_deploy:
+- cp -r . /tmp/grafana-dot-panel-${TRAVIS_TAG}
+- cd /tmp
+- zip -r grafana-dot-panel-${TRAVIS_TAG}.zip grafana-dot-panel-${TRAVIS_TAG}
+
+
+deploy:
+- provider: releases
+  api_key: $GITHUB_RELEASE_TOKEN
+  file: /tmp/grafana-dot-panel-${TRAVIS_TAG}.zip
+  overwrite: true
+  skip_cleanup: true
+  on:
+    tags: true
