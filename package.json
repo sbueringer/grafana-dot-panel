@@ -25,6 +25,6 @@
     "grafana-sdk-mocks": "github:grafana/grafana-sdk-mocks"
   },
   "dependencies": {
-    "lodash": "^4.17.0"
+    "lodash": "^4.17.5"
   }
 }
