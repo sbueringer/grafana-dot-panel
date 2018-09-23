@@ -1,7 +1,7 @@
 sudo: false
 dist: trusty
 
-language: go
+language: javascript
 
 cache:
   directories:
@@ -15,7 +15,9 @@ before_install:
 - env
 - nvm install $NODE_VERSION
 
-#install:
+install:
+- npm install
+- npm install -g grunt-cli
 #- npm install -g codecov
 
 script:
