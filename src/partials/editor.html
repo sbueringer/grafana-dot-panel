@@ -1,0 +1,124 @@
+<div class="editor-row">
+    <div class="section gf-form-group">
+        <h5 class="section-heading">Dots</h5>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Width</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.widthPx"
+                   ng-change="ctrl.render()"/>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Height</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.heightPx"
+                   ng-change="ctrl.render()"/>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Margin</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.marginPx"
+                   ng-change="ctrl.render()"/>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Border Radius</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.borderRadiusPx"
+                   ng-change="ctrl.render()"/>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Compaction</label>
+            <gf-form-dropdown model="ctrl.panel.compactionAlgorithm" css-class="gf-form-input width-10" lookup-text="true"
+                              get-options="ctrl.compactionAlgorithms" on-change="ctrl.render()" allow-custom="true">
+            </gf-form-dropdown>
+        </div>
+    </div>
+
+
+    <div class="section gf-form-group">
+        <h5 class="section-heading">Colors</h5>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Default Color</label>
+            <label class="gf-form-label">
+                <spectrum-picker ng-model="ctrl.panel.defaultColor" ng-change="ctrl.render()"></spectrum-picker>
+            </label>
+        </div>
+
+        <div class="gf-form" ng-repeat="threshold in ctrl.panel.thresholds">
+            <label class="gf-form-label width-10">Threshold {{$index + 1}}</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="threshold.value"
+                   ng-change="ctrl.render()"/>
+            <label class="gf-form-label">
+                <spectrum-picker ng-model="threshold.color" ng-change="ctrl.render()"></spectrum-picker>
+            </label>
+
+            <label class="gf-form-label">
+                <a class="pointer" ng-click="ctrl.onEditorRemoveThreshold($index)">
+                    <i class="fa fa-trash"></i>
+                </a>
+            </label>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label">
+                <a class="pointer" ng-click="ctrl.onEditorAddThreshold()">
+                    Add threshold
+                </a>
+            </label>
+        </div>
+    </div>
+
+    <div class="section gf-form-group">
+        <h5 class="section-heading">X-Axis</h5>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Text Color</label>
+            <label class="gf-form-label">
+                <spectrum-picker ng-model="ctrl.panel.xAxisTextColor" ng-change="ctrl.render()"></spectrum-picker>
+            </label>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Text Size</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.xAxisTextSize"
+                   ng-change="ctrl.render()"/>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Dot Range</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.xAxisDotRange"
+                   ng-change="ctrl.render()"/>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-11">Date Format</label>
+            <gf-form-dropdown model="ctrl.panel.xAxisDateFormat" css-class="gf-form-input width-16" lookup-text="true"
+                              get-options="ctrl.dateFormats" on-change="ctrl.render()" allow-custom="true">
+            </gf-form-dropdown>
+        </div>
+    </div>
+
+    <div class="section gf-form-group">
+        <h5 class="section-heading">Y-Axis</h5>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Text Color</label>
+            <label class="gf-form-label">
+                <spectrum-picker ng-model="ctrl.panel.yAxisTextColor" ng-change="ctrl.render()"></spectrum-picker>
+            </label>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Text Size</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.yAxisTextSize"
+                   ng-change="ctrl.render()"/>
+        </div>
+
+        <div class="gf-form">
+            <label class="gf-form-label width-10">Width</label>
+            <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.yAxisWidthPx"
+                   ng-change="ctrl.render()"/>
+        </div>
+    </div>
+</div>

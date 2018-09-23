@@ -1,0 +1,46 @@
+{
+  "name": "Dot Panel",
+  "id": "sbueringer-dot-panel",
+  "type": "panel",
+  "info": {
+    "description": "Dot panel shows timeseries as dots.",
+    "author": {
+      "name": "Stefan Bueringer",
+      "url": "https://sbueringer.github.io/"
+    },
+    "keywords": [
+      "dot",
+      "panel"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/sbueringer/grafana-dot-panel"
+      },
+      {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/sbueringer/grafana-dot-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "Dot Panel Example",
+        "path": "img/dot.png"
+      },
+      {
+        "name": "Dot Panel Options",
+        "path": "img/dot_options.png"
+      }
+    ],
+    "version": "0.1.0",
+    "updated": "2018-09-21"
+  },
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": []
+  }
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+	 width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 125 125" xml:space="preserve">
+    <g>
+        <text x="51" y="12" fill="#FFFFFF" font-size="12" class="dotpanel-text">09-23 10:26:59</text>
+        <text x="221" y="12" fill="#FFFFFF" font-size="12" class="dotpanel-text">09-23 11:03:21</text>
+    </g>
+    <g>
+        <text x="5" y="31.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t002</text>
+        <text x="5" y="48.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t003</text>
+        <text x="5" y="65.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t004</text>
+        <text x="5" y="82.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t005</text>
+        <text x="5" y="99.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t006</text>
+        <text x="5" y="116.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t007</text>
+        <text x="5" y="133.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t008</text>
+        <text x="5" y="150.5" fill="#FFFFFF" font-size="12" class="dotpanel-text">i01t009</text>
+    </g>
+    <g>
+        <rect x="51" y="18" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="68" y="18" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="85" y="18" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="102" y="18" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="119" y="18" rx="5" ry="5" width="15" height="15" style="fill: #890f02" class="dotpanel-dot"></rect>
+        <rect x="136" y="18" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+
+        <rect x="51" y="35" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="68" y="35" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="85" y="35" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="102" y="35" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="119" y="35" rx="5" ry="5" width="15" height="15" style="fill: #890f02" class="dotpanel-dot"></rect>
+        <rect x="136" y="35" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+
+        <rect x="51" y="52" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="68" y="52" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="85" y="52" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="102" y="52" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="119" y="52" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="136" y="52" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+
+        <rect x="51" y="69" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="68" y="69" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="85" y="69" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="102" y="69" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="119" y="69" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+        <rect x="136" y="69" rx="5" ry="5" width="15" height="15" style="fill: #c15c17" class="dotpanel-dot"></rect>
+
+        <rect x="51" y="86" rx="5" ry="5" width="15" height="15" style="fill: #890f02" class="dotpanel-dot"></rect>
+        <rect x="68" y="86" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="85" y="86" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="102" y="86" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="119" y="86" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="136" y="86" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+
+        <rect x="51" y="103" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="68" y="103" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="85" y="103" rx="5" ry="5" width="15" height="15" style="fill: #890f02" class="dotpanel-dot"></rect>
+        <rect x="102" y="103" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="119" y="103" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+        <rect x="136" y="103" rx="5" ry="5" width="15" height="15" style="fill: #629e51" class="dotpanel-dot"></rect>
+
+        <rect x="51" y="120" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="68" y="120" rx="5" ry="5" width="15" height="15" style="fill: #890f02" class="dotpanel-dot"></rect>
+        <rect x="85" y="120" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="102" y="120" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="119" y="120" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="136" y="120" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+
+        <rect x="51" y="137" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="68" y="137" rx="5" ry="5" width="15" height="15" style="fill: #890f02" class="dotpanel-dot"></rect>
+        <rect x="85" y="137" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="102" y="137" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="119" y="137" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+        <rect x="136" y="137" rx="5" ry="5" width="15" height="15" style="fill: #cca300" class="dotpanel-dot"></rect>
+    </g>
+</svg>
